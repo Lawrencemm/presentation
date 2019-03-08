@@ -1,4 +1,7 @@
 // presentation.h
 #pragma once
 
-void speak();
+namespace presentation
+{
+    void speak();
+}

@@ -1,12 +1,8 @@
 // presentation.cpp
-#include "presentation.h"
-
-#include <cstdlib>
-
 #include <iostream>
 
-void speak() {
-    std::cout << "Python sucks!\n";
-    std::cout << "Have a random number for your troubles!\n" ;
-    std::cout << rand() << std::endl;
+namespace presentation {
+    void speak() {
+        std::cout << "Please let me get through this" << std::endl;
+    }
 }
